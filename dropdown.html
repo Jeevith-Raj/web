@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Example</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css">  
+
+    </head>
+<body>
+    <h1>Bootstrap DropDown</h1>
+   <div class="container">
+       <div class="row">
+           <div class="col-md-6">
+
+               <div class="dropdown">
+                   <button class="btn btn-danger">
+                       courses
+                       <span class="caret"></span>
+                   </button>
+                   <ul>
+                       <li><a href="">C</a></li>
+                        <li><a href="">C++</a></li>
+                        <li><a href="">Java</a></li>
+                     </ul>
+               </div>
+
+               <hr>
+               <h4>Dropdown - to hide the unorder list into dropdown</h4>
+               <div class="dropdown">
+                <button class="btn btn-danger">
+                    courses
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a href="">C</a></li>
+                     <li><a href="">C++</a></li>
+                     <li><a href="">Java</a></li>
+                  </ul>
+            </div>
+            <hr>
+            <h4>Dropdown - once you clicked the dropdown it will show the menu(Use dropdown-toggle) to call the menu items(datatoggle)</h4>
+            <div class="dropdown">
+             <button class="btn btn-danger dropdown-toggle" data-toggle="dropdown">
+                 courses
+                 <span class="caret"></span>
+             </button>
+             <ul class="dropdown-menu">
+                 <li><a href="">C</a></li>
+                  <li><a href="">C++</a></li>
+                  <li><a href="">Java</a></li>
+               </ul>
+         </div>
+
+         <hr>
+            <h4>Dropdown - Divider and give header</h4>
+            <div class="dropdown">
+             <button class="btn btn-danger dropdown-toggle" data-toggle="dropdown">
+                 courses
+                 <span class="caret"></span>
+             </button>
+             <ul class="dropdown-menu">
+                <li class="dropdown-header">Programming Courses</li>
+                 <li><a href="">C</a></li>
+                  <li><a href="">C++</a></li>
+                  <li><a href="">Java</a></li>
+                  <li class="divider"></li>
+                  <li class="dropdown-header">Web Designing Courses</li>
+                  <li><a href="">HTML</a></li>
+                  <li><a href="">CSS</a></li>
+                  <li><a href="">JS</a></li>
+               </ul>
+         </div>
+         <hr>
+         <h4>Dropdown - change the position - active/disable</h4>
+            <div class="dropdown">
+             <button class="btn btn-danger dropdown-toggle" data-toggle="dropdown">
+                 courses
+                 <span class="caret"></span>
+             </button>
+             <ul class="dropdown-menu dropdown-menu-right">
+                <li class="dropdown-header">Programming Courses</li>
+                 <li class="active"><a href="">C</a></li>
+                  <li><a href="">C++</a></li>
+                  <li class="disabled"><a href="">Java</a></li>
+                  <li class="divider"></li>
+                  <li class="dropdown-header">Web Designing Courses</li>
+                  <li><a href="">HTML</a></li>
+                  <li><a href="">CSS</a></li>
+                  <li><a href="">JS</a></li>
+               </ul>
+         </div>
+         <hr>
+         <h4>Dropdown - change the position to up</h4>
+            <div class="dropup">
+             <button class="btn btn-danger dropdown-toggle" data-toggle="dropdown">
+                 courses
+                 <span class="caret"></span>
+             </button>
+             <ul class="dropdown-menu">
+                <li class="dropdown-header">Programming Courses</li>
+                 <li><a href="">C</a></li>
+                  <li><a href="">C++</a></li>
+                  <li><a href="">Java</a></li>
+                  <li class="divider"></li>
+                  <li class="dropdown-header">Web Designing Courses</li>
+                  <li><a href="">HTML</a></li>
+                  <li><a href="">CSS</a></li>
+                  <li><a href="">JS</a></li>
+               </ul>
+         </div>
+           </div>
+       </div>
+   </div>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+  
+    
+</body>
+</html>
